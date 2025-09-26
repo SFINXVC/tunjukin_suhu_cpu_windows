@@ -1,0 +1,18 @@
+[package]
+name = "tunjukin_suhu_cpu_windows"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A simple library for reading CPU temperature on Windows systems using WMI queries"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/tunjukin_suhu_cpu_windows"
+documentation = "https://docs.rs/tunjukin_suhu_cpu_windows"
+readme = "README.md"
+keywords = ["windows", "cpu", "temperature", "wmi", "thermal"]
+categories = ["hardware-support", "os::windows-apis"]
+
+[dependencies]
+regex = "1.11.3"
+
+[dev-dependencies]
+# Add any test dependencies here if needed
